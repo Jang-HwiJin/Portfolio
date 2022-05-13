@@ -1,0 +1,96 @@
+#facebook,
+#twitter,
+#google,
+#insta{
+  transition: color 0.5s;
+  font-size: 150%;
+}
+
+#linkedin,
+#github {
+  transition: color 0.5s;
+  font-size: 250%;
+}
+
+#facebook:hover {
+  color: #1877f2;
+}
+#twitter:hover {
+  color: #1da1f2;
+}
+#google:hover {
+  color: #ea4335;
+}
+#insta:hover {
+  color: #c32aa3;
+}
+#linkedin:hover {
+  color: #e9d869;
+}
+#github {
+  color: #000000;
+}
+#github:hover {
+  color: #ffa500;
+}
+
+.profilePic {
+  border-radius: 50%;
+  width: 20%;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center
+}
+
+/* Contact */
+
+.btn:hover,
+.btn:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  color: black;
+}
+
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.formGroup {
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.form-group {
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: -100px;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Skills */
+.spaceLeft {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Experience */
+.spaceLessLeft {
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+.spaceRight {
+  margin-left: 80%;
+}
+
+/* Project */

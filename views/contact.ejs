@@ -1,0 +1,59 @@
+<%- include("partials/header") -%>
+
+
+      <div class="row">
+        <p class="center" style="font-size: 60px;">CONTACT ME</p>
+        <div class="">
+          <h3>Feel free to contact me through email or connect with me on LinkedIn!</h3>
+          <p><strong>Email: </strong>janghwijin01@gmail.com</p>
+          <h3><a href="https://www.linkedin.com/in/hwijinjang/"><ion-icon name="logo-linkedin" id="linkedin"></ion-icon></a></h3>
+        </div>
+
+        <hr>
+        <hr>
+        <h3>Contact Form</h3>
+
+        <form name="contactForm" action="/home" method="post">
+          <input type="hidden" name="form-name" value="contactForm" />
+          <div class="row formGroup">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Name..."
+              required
+            />
+          </div>
+
+          <div class="row formGroup">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email..."
+              required
+            />
+          </div>
+
+          <div class="row form-group">
+            <label for="message">What would you like to talk about?</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Message..."
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <div class="center">
+            <input type="submit" href="/" value="Submit" class="btn center" id="formSubmit" />
+          </div>
+        </form>
+      </div>
+      <br>
+
+
+    <%- include("partials/footer") -%>
